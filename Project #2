@@ -1,0 +1,16 @@
+import java.util.Scanner; 
+public class Exercise02_03 {
+  public static void main(String[]args) {
+    // Create scanner 
+    Scanner input = new Scanner(System.in);
+    // Create value
+    final double meterPerfoot = 0.305;
+    // Prompt user
+    System.out.println("Enter a value for feet: ");
+    double feet = input.nextDouble();
+    // Convert
+    double meters = feet * meterPerfoot;
+    // Display result
+    System.out.println(feet + " feet is " + meters + " meters");
+  }
+}
